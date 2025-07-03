@@ -1,7 +1,7 @@
 import cv2
 
 face_haar_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
-image = cv2.imread('img.webp')
+image = cv2.imread('serious-young-african-man-standing-isolated_171337-9633.avif')
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
 
